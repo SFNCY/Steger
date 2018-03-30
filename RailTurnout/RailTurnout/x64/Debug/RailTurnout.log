@@ -1,5 +1,5 @@
 ﻿  RailTurnout.cpp
-f:\7_rail_turnout\demo\railturnout\railturnout\railturnout.cpp(154): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-f:\7_rail_turnout\demo\railturnout\railturnout\railturnout.cpp(155): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-  RailTurnout.vcxproj -> F:\7_Rail_Turnout\Demo\RailTurnout\x64\Debug\RailTurnout.exe
-  RailTurnout.vcxproj -> F:\7_Rail_Turnout\Demo\RailTurnout\x64\Debug\RailTurnout.pdb (Partial PDB)
+f:\7_rail_turnout\steger\railturnout\railturnout\railturnout.cpp(154): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+f:\7_rail_turnout\steger\railturnout\railturnout\railturnout.cpp(155): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  RailTurnout.vcxproj -> F:\7_Rail_Turnout\Steger\RailTurnout\x64\Debug\RailTurnout.exe
+  RailTurnout.vcxproj -> F:\7_Rail_Turnout\Steger\RailTurnout\x64\Debug\RailTurnout.pdb (Partial PDB)

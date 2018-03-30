@@ -49,7 +49,8 @@
 //	cout << "diff_r的通道数：" << diff_r.channels() << endl;
 //	cvtColor(diff_r, diff_r, CV_GRAY2BGR);
 //	cout << "diff_r的通道数：" << diff_r.channels() << endl;
-//	imwrite("差分后.jpg", diff_r);
+//	imwrite("差分后.jpg", diff);
+//	imwrite("差分后红色通道.jpg", diff_r);
 //	waitKey(20171209);
 //}
 
@@ -61,7 +62,7 @@ using namespace std;
 using namespace cv;
 int main()
 {
-	Mat img0 = imread("差分后.jpg", 1);
+	Mat img0 = imread("差分后红色通道.jpg", 1);
 	imshow("原图", img0);
 	Mat img;
 	cvtColor(img0, img0, CV_BGR2GRAY);
@@ -145,8 +146,8 @@ int main()
 		}
 	}
 	Mat result;
-	cvtColor(img0, result, COLOR_GRAY2BGR);
-	//result = imread("组3（水平）\\foreground.jpg");
+	//cvtColor(img0, result, COLOR_GRAY2BGR);
+	result = imread("组3（水平）\\foreground.jpg");
 	for (int k = 0; k<Pt.size() / 2; k++)
 	{
 		Point rpt;
@@ -159,6 +160,7 @@ int main()
 	}
 	//namedWindow("result", WINDOW_NORMAL);
 	imshow("result", result);
+	imwrite("红色通道上提取线显示.jpg", result);
 	waitKey(0);
 	waitKey(20171209);
 }
