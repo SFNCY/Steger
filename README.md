@@ -1,4 +1,4 @@
-# Steger方法光线中心提取
+# Steger光线中心提取方法
 
 [1] C. Steger, “An Unbiased Detector of Curvilinear Structures”, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 20, NO. 2, pp. 113 – 125, FEBRUARY 1998.
 
